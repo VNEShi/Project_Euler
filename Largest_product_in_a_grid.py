@@ -1,3 +1,12 @@
+"""
+Largest product in a grid
+In the 20×20 grid below, four numbers along a diagonal line have been marked in red.
+
+The product of these numbers is 26 × 63 × 78 × 14 = 1788696.
+
+What is the greatest product of four adjacent numbers in the same direction
+(up, down, left, right, or diagonally) in the 20×20 grid?
+"""
 grid = [[int(i) for i in input().split()]]
 for i in range(len(grid[0]) - 1):
     add_row = [int(i) for i in input().split()]
