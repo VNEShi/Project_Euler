@@ -32,3 +32,10 @@ for i in range(len(grid) - 3):
             if pret_max_hor > max_hor:
                 max_hor = pret_max_hor
 print(max(max_hor, max_ver, max_dia, max_negativ_dia))
+"""
+second decision
+        mb_max_prod = max(matrix[i][j] * matrix[i + 1][j] * matrix[i + 2][j] * matrix[i + 3][j],
+                       matrix[i][j] * matrix[i][j + 1] * matrix[i][j + 2] * matrix[i][j + 3],
+                       matrix[i][j] * matrix[i + 1][j + 1] * matrix[i + 2][j + 2] * matrix[i + 3][j + 3]],
+                       matrix[i + 3][j] * matrix[i + 2][j + 1] * matrix[i + 1][j + 2] * matrix[i + 1][j + 3])
+"""
